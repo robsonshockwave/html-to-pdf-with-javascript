@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">        
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- Importando a Biblioteca html2pdf e o arquivo pdf.js-->
+    <script src="pdf.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+    <title>Google</title>
+</head>
+<body>
+  <div id="to_pdf">
+    <nav class="navbar navbar-expand navbar-white bg-white">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://mail.google.com/">G-mail</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.google.com.br/imghp">Imagens</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://drive.google.com/drive/">Drive</a>
+          </li>
+        </ul>
+    </nav>
+    <div class="container-fluid">
+        <div>
+            <img src="google.png" id="google_logo" alt="google_">
+            <form role="search" action="https://www.google.com/search" method="get">
+                <input id="google_search" class="google_input" type="text" name="q" maxlength="1024" title="Search">
+                <input id="google_submit" class="google_input" type="submit" value="Pesquisar">
+            </form>
+        </div>
+    </div>
+    <footer class="fixed-bottom text-center bg-light align-middle py-4">
+      <a id="download">Download PDF</a> - by Robson
+    </footer>
+  </div>
+</body>
+</html>
