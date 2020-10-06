@@ -1,10 +1,10 @@
 <h3>Conversor de página HTML para PDF</h3>
 
 <p align="center">
-  <img alt="Tela" src=".github/Capturar1.png" width="70%">
+  <img alt="Tela" src=".github/Capturar1.png" width="40%">
 </p>
 <p align="center">
-  <img alt="PDF" src=".github/Capturar1.png" width="700%">
+  <img alt="PDF" src=".github/Capturar1.png" width="400%">
 </p>
 
 ## 📚 Biblioteca
