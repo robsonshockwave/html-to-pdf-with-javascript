@@ -1,0 +1,103 @@
+@media screen and (max-height: 480px) and (orientation: landscape) {
+    nav, footer {
+        opacity: 0;
+    }
+}
+
+body {
+    color: #707070;
+}
+
+a {
+    color: #707070;
+}
+
+a:hover {
+    color: black;
+}
+
+#google_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    margin-top: 19vh;
+    max-height: 15vh;
+    min-height: 5vh;
+    
+}
+
+.google_input {
+    display: block;
+    margin: auto;
+    
+}
+
+#google_search {
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-top: 19px;
+    margin-bottom: 23px;
+    height: 6vh;
+    width: 39vw;
+    min-width: 35px; 
+    border: 1px solid #dcdcdc;
+    border-radius: 21px;
+}
+
+#google_search:focus {
+    padding-left: 17px;
+    padding-right: 17px;
+    outline: none;
+    box-shadow: 0px 0px 0px 2px #f8f8f8; 
+}
+
+#google_submit {
+    color: #707070;
+    font-weight: 500;
+    padding-bottom: 3px;
+    height: 5vh;
+    width: 7vw;
+    max-width: 150px;
+    background: #f1f1f1;
+    border: 0px solid;
+    border-radius: 4px;
+}
+
+#google_submit:hover {
+    color: #454545;
+    outline: none;
+    background: #f5f5f5;
+    border: 1px solid #dcdcdc;
+}
+
+#google_submit:focus {
+    outline: none;
+    border: 1px solid #1E90FF;
+}
+
+@media only screen and (max-width: 900px) {
+    #google_logo{
+        height: 11vh;
+    }
+    #google_search{
+        padding-left: 17px;
+        height: 5vh;
+        width: 70vw;
+    }
+    #google_submit{
+        width: 17vw;
+        max-width: 150px;
+    }
+}
+
+footer {
+    display: block;
+    margin:auto;
+    height: 11vh;
+    position: static;
+}
+
+#download {
+    cursor: pointer;
+}
