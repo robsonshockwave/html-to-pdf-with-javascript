@@ -22,6 +22,5 @@ Serve para pegar uma página HTML e transformar em PDF, ou seja, irá capturar a
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
-
 <h6>Feito com ♥ por Robson!</h6>
--------------------------
+
